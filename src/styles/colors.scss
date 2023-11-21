@@ -1,0 +1,17 @@
+:root {
+    --first: White;
+    --second: #090c31;
+    --third: #5853ff;
+    --dark: rgb(44, 44, 44);
+    --text1: "Roboto";
+    --text2: cursive;
+  }
+  
+  /* Example usage */
+  .element {
+    background-color: var(--first);
+    color: var(--second);
+    font-family: var(--text1), var(--text2), sans-serif;
+    /* Other styles */
+  }
+  
